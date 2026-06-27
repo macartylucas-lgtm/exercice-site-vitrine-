@@ -148,3 +148,71 @@ span{
     font-weight: 400;
 }
 
+#contact{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+#contact h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    background: #222;
+    max-width: 700px;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.champ{
+    margin-bottom: 1.2rem;
+}
+
+label{
+    display: block;
+    margin-bottom: 0.4rem;
+    font-size: 0.85rem;
+}
+
+option{
+    color:#fff;
+    background: #111
+}
+
+input, textarea, select{
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+    border-color: #f5c518;
+}
+
+button{
+    padding: 0.8rem 2rem;
+    background: #f5c518;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 400;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    color: #111;
+    background: #fff;
+}
