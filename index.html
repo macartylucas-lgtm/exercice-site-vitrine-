@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark lebrun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <span class="logo">Marc Lebrun</span>
+        <nav>
+            <ul>
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#service">Mes services</a></li>
+                <li><a href="#contact">contactez</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero_container">
+                <h1>Ayez le courant telle un <span> Pikachu</span></h1>
+                <p>votre électricien à domicile à la Réunion</p>
+                <div class="hero_button">
+                    <a href="#contact">Prenons rendez-vous</a>
+                </div>
+            </div>
+
+        </section>
+        <section id="service">
+            <h2> Mes services</h2>
+            <div class="container_service">
+                <div class="box">
+                    <i class="bi bi-wrench"></i>
+                    <h3>Rénovation</h3>
+                </div>
+                <div class="box">
+                    <i class="bi bi-lightning"></i>
+                    <h3>Installation</h3>
+                </div>
+                <div class="box">
+                    <i class="bi bi-gear"></i>
+                    <h3>Réparation</h3>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <form>
+                <div class="champ">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" placeholder="Votre Prénom">
+                </div>
+                <div class="champ">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" placeholder="Votre Nom">
+                </div>
+                <div class="champ">
+                    <label for="mail">Mail</label>
+                    <input type="text" id="mail" placeholder="Votre Mail">
+                </div>
+                <div class="champ">
+                    <label for="service_select">Service</label>
+                    <select name="service" id="service_select">
+                        <option value="">Choisissez un service</option>
+                        <option value="">réparation</option>
+                        <option value="">rénovation</option>
+                        <option value="">insatallation</option>
+                    </select>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <small>by lucas </small>
+    </footer>
+</body>
+
+</html>
